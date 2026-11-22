@@ -3,213 +3,85 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>LeverageScales | Personal Branding & AI Automation Systems</title>
-<meta name="description" content="We build high-authority personal brands and custom AI automation systems that save 10+ hours a week and turn expertise into inbound pipeline.">
+<title>LeverageScales | Leverage, by design.</title>
+<meta name="description" content="LeverageScales is a private consultancy for professionals and creators who intend to scale.">
 <meta name="robots" content="index,follow">
 <meta name="theme-color" content="#09090b">
 <link rel="canonical" href="https://leveragescales.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="LeverageScales">
 <meta property="og:url" content="https://leveragescales.com/">
-<meta property="og:title" content="LeverageScales | Personal Branding & AI Automation Systems">
-<meta property="og:description" content="High-authority personal branding and agentic AI workflows engineered to scale your output without scaling your hours.">
+<meta property="og:title" content="LeverageScales | Leverage, by design.">
+<meta property="og:description" content="A private consultancy for professionals and creators who intend to scale.">
+<meta name="twitter:card" content="summary">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2309090b'/%3E%3Cpath d='M5 22L27 10' stroke='%23818cf8' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M16 16.5l-5 9h10z' fill='%2334d399'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root {
-  --bg: #09090b;
-  --surface: #121216;
-  --surface-hover: #18181f;
-  --border: #27272a;
-  --text: #fafafa;
-  --muted: #a1a1aa;
-  --dim: #71717a;
-  --indigo: #4f46e5;
-  --indigo-hover: #4338ca;
-  --indigo-hi: #818cf8;
-  --emerald: #34d399;
-}
+:root{--bg:#09090b;--surface:#121216;--border:#27272a;--text:#fafafa;--muted:#a1a1aa;--indigo:#4f46e5;--indigo-hi:#818cf8;--emerald:#34d399}
+*,*::before,*::after{box-sizing:border-box}
+body,h1,p{margin:0}
+html{color-scheme:dark}
+body{min-height:100vh;min-height:100svh;display:flex;flex-direction:column;font-family:'Plus Jakarta Sans',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--emerald);outline-offset:3px}
+.wrap{width:min(100% - 2.5rem,1120px);margin-inline:auto}
 
-*, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; color-scheme: dark; }
-body {
-  margin: 0;
-  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
-  background-color: var(--bg);
-  background-image: radial-gradient(circle at 50% 0%, rgba(79, 70, 229, 0.14) 0%, transparent 55%);
-  color: var(--text);
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-}
-a { color: inherit; text-decoration: none; }
-h1, h2, h3, p { margin: 0; }
+header .wrap{display:flex;align-items:center;height:72px}
+.brand{display:flex;align-items:center;gap:.6rem;font-size:1.1rem;font-weight:700;letter-spacing:-.02em}
+.brand svg{width:28px;height:28px;flex:none}
+.brand span{color:var(--indigo-hi)}
 
-.wrap { width: min(100% - 2.5rem, 1100px); margin-inline: auto; }
+main{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:1.5rem 1.25rem 4rem;text-align:center}
+.lever{display:block;width:min(100%,420px);height:auto;margin-bottom:2.25rem}
+h1{font-size:clamp(2.4rem,7vw,4.2rem);font-weight:700;line-height:1.08;letter-spacing:-.03em}
+.lead{max-width:34ch;margin-top:1.1rem;color:var(--muted);font-size:1.1rem}
+.build{display:inline-flex;align-items:center;gap:.6rem;margin-top:2rem;padding:.45rem 1rem;background:var(--surface);border:1px solid var(--border);border-radius:99px;color:var(--muted);font-size:.9rem}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--emerald)}
+.btn{display:inline-flex;align-items:center;justify-content:center;margin-top:1.75rem;padding:.9rem 1.6rem;background:var(--indigo);border-radius:10px;color:#fff;font-size:.95rem;font-weight:600;line-height:1;transition:background .2s}
+.btn:hover{background:#4338ca}
+.addr{margin-top:.9rem;color:#71717a;font-size:.85rem}
 
-/* Navigation */
-header {
-  position: sticky;
-  top: 0;
-  z-index: 50;
-  background: rgba(9, 9, 11, 0.82);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
-}
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 72px;
-}
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 0.65rem;
-  font-size: 1.15rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-}
-.brand span { color: var(--indigo-hi); }
-.nav-links {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  font-size: 0.92rem;
-  color: var(--muted);
-  font-weight: 500;
-}
-.nav-links a:hover { color: var(--text); }
-.btn-sm {
-  padding: 0.55rem 1.15rem;
-  background: var(--indigo);
-  color: #fff;
-  border-radius: 8px;
-  font-size: 0.88rem;
-  font-weight: 600;
-  transition: background 0.2s;
-}
-.btn-sm:hover { background: var(--indigo-hover); }
+.beam{transform-box:view-box;transform-origin:130px 150px;transform:rotate(7deg);animation:tilt 2.6s cubic-bezier(.2,.7,.2,1) .4s both}
+@keyframes tilt{from{transform:rotate(0deg)}}
 
-/* Hero */
-.hero {
-  padding: 5.5rem 0 4.5rem;
-  text-align: center;
-}
-.pill {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.55rem;
-  padding: 0.4rem 0.95rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 99px;
-  font-size: 0.85rem;
-  color: var(--muted);
-  margin-bottom: 1.75rem;
-}
-.pill-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--emerald);
-  box-shadow: 0 0 10px var(--emerald);
-}
-.hero h1 {
-  max-width: 18ch;
-  margin-inline: auto;
-  font-size: clamp(2.5rem, 6vw, 4.35rem);
-  font-weight: 800;
-  line-height: 1.08;
-  letter-spacing: -0.035em;
-}
-.hero h1 span {
-  background: linear-gradient(135deg, #fff 30%, var(--indigo-hi) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.hero p {
-  max-width: 54ch;
-  margin: 1.35rem auto 0;
-  color: var(--muted);
-  font-size: 1.12rem;
-}
-.hero-actions {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 2.25rem;
-}
-.btn-primary {
-  padding: 0.95rem 1.85rem;
-  background: var(--indigo);
-  color: #fff;
-  border-radius: 10px;
-  font-weight: 600;
-  font-size: 0.98rem;
-  transition: transform 0.15s, background 0.2s;
-}
-.btn-primary:hover { background: var(--indigo-hover); transform: translateY(-1px); }
-.btn-secondary {
-  padding: 0.95rem 1.85rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  color: var(--text);
-  border-radius: 10px;
-  font-weight: 600;
-  font-size: 0.98rem;
-  transition: border-color 0.2s, background 0.2s;
-}
-.btn-secondary:hover { border-color: #3f3f46; background: var(--surface-hover); }
+footer{padding:1.75rem 0;border-top:1px solid var(--border);color:var(--muted);font-size:.9rem;text-align:center}
+footer a:hover{color:var(--text)}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
 
-/* Metrics Strip */
-.metrics {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.25rem;
-  margin-top: 4.5rem;
-  padding: 1.75rem;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-}
-.metric-val {
-  font-size: 1.65rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
-  color: var(--text);
-}
-.metric-val span { color: var(--emerald); }
-.metric-lbl {
-  font-size: 0.88rem;
-  color: var(--muted);
-  margin-top: 0.2rem;
-}
+<header>
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="LeverageScales home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#121216" stroke="#27272a"/><path d="M6 22L26 11" stroke="#818cf8" stroke-width="2.6" stroke-linecap="round"/><path d="M16 16.5l-4.5 8h9z" fill="#34d399"/></svg>
+      Leverage<span>Scales</span>
+    </a>
+  </div>
+</header>
 
-/* Sections */
-section { padding: 5rem 0; border-top: 1px solid var(--border); }
-.sec-head { max-width: 58ch; margin-bottom: 3rem; }
-.eyebrow {
-  font-size: 0.82rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--indigo-hi);
-  margin-bottom: 0.65rem;
-}
-.sec-head h2 {
-  font-size: clamp(1.85rem, 4vw, 2.6rem);
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.15;
-}
-.sec-head p {
-  margin-top: 0.85rem;
-  color: var(--muted);
-  font-size: 1.02rem;
-}
+<main>
+  <svg class="lever" viewBox="0 0 400 220" role="img" aria-label="A lever where a small effort on the long arm lifts a larger load">
+    <line x1="20" y1="196" x2="380" y2="196" stroke="#27272a" stroke-width="2"/>
+    <path d="M130 150l-24 46h48z" fill="#18181b" stroke="#3f3f46" stroke-width="2" stroke-linejoin="round"/>
+    <g class="beam">
+      <line x1="30" y1="150" x2="372" y2="150" stroke="#818cf8" stroke-width="6" stroke-linecap="round"/>
+      <circle cx="58" cy="122" r="24" fill="#34d399"/>
+      <circle cx="350" cy="138" r="10" fill="#fafafa"/>
+    </g>
+  </svg>
+  <h1>Leverage, by design.</h1>
+  <p class="lead">A private consultancy for professionals and creators who intend to scale.</p>
+  <p class="build"><span class="dot" aria-hidden="true"></span>Building in progress</p>
+  <a class="btn" href="mailto:leveragescales@gmail.com?subject=Hello%20LeverageScales">Get in touch</a>
+  <p class="addr">leveragescales@gmail.com</p>
+</main>
 
-/* Grid Cards */
-.grid-3 {
+<footer>
+  <div class="wrap">© 2026 LeverageScales &nbsp;|&nbsp; <a href="https://leveragescales.com">leveragescales.com</a></div>
+</footer>
+
+</body>
+</html>
